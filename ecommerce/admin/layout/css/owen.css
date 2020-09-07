@@ -1,0 +1,93 @@
+/* start main css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+/* end main css */
+
+
+/* start login */
+
+.login {
+    width: 300px;
+    margin: 200px auto;
+}
+
+.login h4 {
+    color: #6a6a6a;
+    font-weight: 250px;
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    display: block;
+    margin-bottom: 10px;
+    background: #EAEAEA;
+}
+
+.login .btn {
+    background: #008DDE;
+
+}
+
+/* end login */
+
+/* start navbar */
+
+.navbar {
+    padding: 0px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding: 16px;
+}
+.navbar-dark .navbar-nav :focus,
+.navbar-dark .navbar-nav :hover {
+    background: #3498db;
+}
+.navbar-nav .dropdown-menu {
+    background: #3498db;
+    margin: 0px;
+    border-radius: 0px;
+    color: #FFF !important;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #FFF;
+    font-size: 20px;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background: #FFF;
+    color: #000;
+}
+
+/*end navbar */
+
+
+/* start member */
+h1 {
+    margin: 40px 0px;
+}
+
+/* end member */
+
+/* start dashboard */
+.statues .stat {
+    background: #DDD;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 7px;
+}
+.statues a {
+    color: #FFF;
+    text-decoration: none;
+}
+.statues .stat span {
+    display: block;
+    font-size: 60px;
+}
+/* end dashboard */
